@@ -12,9 +12,9 @@ Important behavior:
 - Works on raw bytes, not via a PDF library parser.
 
 Usage:
-    python pdf_token_counter.py sample.pdf
-    python pdf_token_counter.py sample.pdf --json
-    python pdf_token_counter.py sample.pdf --pdfid
+    python pytoid.py sample.pdf
+    python pytoid.py sample.pdf --json
+    python pytoid.py sample.pdf --pdfid
 """
 
 from __future__ import annotations
