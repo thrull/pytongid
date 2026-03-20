@@ -1,4 +1,4 @@
-# pytongid
+# pytoid
 
 Lightweight PDF token and dictionary-tag scanner that works on raw bytes. Identify PDF tokens and dictionary occurences for PDF document file analysis (like pdfid but better)
 
@@ -17,13 +17,13 @@ It reports:
 Run from the project directory:
 
 ```bash
-python pytongid.py <path-to-pdf>
+python pytoid.py <path-to-pdf>
 ```
 
 ### Text report (default)
 
 ```bash
-python pytongid.py sample.pdf
+python pytoid.py sample.pdf
 ```
 ```bash
 Structural tokens:
@@ -72,7 +72,7 @@ Dictionary tags:
 ### JSON output
 
 ```bash
-python pytongid.py sample.pdf --json
+python pytoid.py sample.pdf --json
 ```
 
 JSON includes:
@@ -143,7 +143,7 @@ JSON includes:
 ### PDFiD-like XML output
 
 ```bash
-python pytongid.py sample.pdf --pdfid
+python pytoid.py sample.pdf --pdfid
 ```
 
 Example root element:
